@@ -23,9 +23,9 @@ Nếu bạn đã đẩy code thư viện này lên kho chứa trung tâm như Gi
 
 ```yaml
 dependencies:
-  web_view_page:
+  web_view_feedback_sds:
     git:
-      url: https://github.com/hoangxuanhiep/web_view_page.git
+      url: https://github.com/hiep12312391283/web_view_feedback_sds.git
       ref: main # (Hoặc branch / tag mà bạn mong muốn)
 ```
 
