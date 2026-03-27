@@ -26,7 +26,7 @@ dependencies:
   web_view_feedback_sds:
     git:
       url: https://github.com/hiep12312391283/web_view_feedback_sds.git
-      ref: main # (Hoặc branch / tag mà bạn mong muốn)
+      ref: main 
 ```
 
 *(Lưu ý: Sau khi khai báo xong, nhớ chạy lệnh `flutter pub get` ở dự án App mới để nó tải thư viện về).*
@@ -39,7 +39,7 @@ Khi đã cài ở App mới rồi, bạn chỉ việc import và gọi hàm chuy
 
 ```dart
 // 1. Nhúng package vào đầu file code
-import 'package:web_view_page/web_view_page.dart';
+import 'package:web_view_feedback_sds/web_view_feedback_sds.dart';
 import 'package:flutter/material.dart';
 
 class MyScreen extends StatelessWidget {
